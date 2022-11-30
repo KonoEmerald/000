@@ -1,0 +1,39 @@
+header {
+  height: 100px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: gray;
+  color: white;
+}
+
+header .headline{
+  line-height: 100px;
+  float: left;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.headline > a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav-list {
+  font-size: 20px;
+  line-height: 100px;
+  float: right;
+  margin-right: 100px;
+  list-style: none;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.nav-list-item > a {
+  text-decoration: none;
+  color: white;
+}
